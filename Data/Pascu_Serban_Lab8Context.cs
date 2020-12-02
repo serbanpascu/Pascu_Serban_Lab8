@@ -19,5 +19,6 @@ namespace Pascu_Serban_Lab8.Data
         public DbSet<Pascu_Serban_Lab8.Models.Publisher> Publisher { get; set; }
 
         public DbSet<Pascu_Serban_Lab8.Models.BookCategory> BookCategory { get; set; }
+        public DbSet<Pascu_Serban_Lab8.Models.Category> Category { get; set; }
     }
 }
